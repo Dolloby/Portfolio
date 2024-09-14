@@ -1,7 +1,6 @@
 const projects = [
     {
         idProject: 1,
-        // imgProject: 'https://res.cloudinary.com/erpersonalprojects/image/upload/v1691589859/5_tmkfox.png',
         imgProject: '/assets/img/ANGULAR.png',
         titleProject: 'Chat Bidireccional',
         descriptionProject: 'Este es un chat de socket.io.',
@@ -9,7 +8,6 @@ const projects = [
     },
     {
         idProject: 2,
-        // imgProject: 'https://res.cloudinary.com/erpersonalprojects/image/upload/v1691589860/6_qswhfq.png',
         imgProject: '/assets/img/JS.png',
         titleProject: 'E-COMMERCE JS',
         descriptionProject: 'Proyecto de carrito de compras.',
@@ -17,7 +15,6 @@ const projects = [
     },
     {
         idProject: 3,
-        // imgProject: 'https://res.cloudinary.com/erpersonalprojects/image/upload/v1691589859/2_mjdq8j.png',
         imgProject: '/assets/img/VUE.png',
         titleProject: 'Formulario de contáctenos',
         descriptionProject: 'Formulario de contactenos con Email-JS.',
@@ -25,7 +22,6 @@ const projects = [
     },
     {
         idProject: 4,
-        // imgProject: 'https://res.cloudinary.com/erpersonalprojects/image/upload/v1691589859/4_ozws53.png',
         imgProject: '/assets/img/REACT.png',
         titleProject: 'Rick and Morty',
         descriptionProject: 'Api Rest Sencilla de Rick and Morty.',
