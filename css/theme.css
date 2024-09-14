@@ -106,6 +106,7 @@
 .main-right .main-content .main-box {
   overflow: scroll;
   height: 599px;
+  scroll-behavior: smooth;
 }
 .main-right .main-content .main-box h2 {
   color: #000000;
@@ -311,7 +312,7 @@ h1 {
   width: 75%;
 }
 
-@media (width: 768px) {
+@media (max-width: 768px) {
   .main-container .content {
     width: 100%;
   }

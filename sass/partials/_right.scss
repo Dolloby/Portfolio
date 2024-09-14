@@ -42,6 +42,7 @@
         .main-box {
             overflow: scroll;
             height: 599px;
+            scroll-behavior: smooth;
 
             h2 {
                 color: $white-color;

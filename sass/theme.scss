@@ -41,7 +41,7 @@ h1 {
     }
 }
 
-@media (width: 768px) {
+@media (max-width: 768px) {
     .main-container {
         .content {
             width: 100%;
