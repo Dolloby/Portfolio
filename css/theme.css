@@ -1,0 +1,318 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+.sidebar-left {
+  width: 15%;
+  height: 100%;
+  position: fixed;
+  padding: 10px 0;
+  background-color: #f6f6f6;
+  color: #000000;
+}
+.sidebar-left .sidebar-header {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.sidebar-left .sidebar-header .image-container {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid #6d31c1;
+  border-radius: 125px;
+  overflow: hidden;
+}
+.sidebar-left .sidebar-section {
+  margin: 10px 0px 0px 30px;
+}
+.sidebar-left .sidebar-section i {
+  font-size: 20px;
+}
+.sidebar-left .sidebar-section .sidebar-title {
+  margin-bottom: 10px;
+  color: #6d31c1;
+}
+.sidebar-left .sidebar-section .sidebar-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.sidebar-left .sidebar-section .sidebar-social {
+  list-style: none;
+}
+.sidebar-left .sidebar-section .sidebar-social i {
+  font-size: 30px;
+}
+.sidebar-left .sidebar-section a {
+  color: #000000;
+  text-decoration: none;
+}
+.sidebar-left .sidebar-section a:hover {
+  color: #6d31c1;
+  transition: color 1s;
+}
+.sidebar-left .sidebar-footer {
+  border-top: 1px solid #000000;
+  margin: 0 40px;
+  padding: 10px 0 0 0;
+  position: relative;
+  top: 70px;
+}
+.sidebar-left .sidebar-footer .content-footer a {
+  color: #6d31c1;
+  text-decoration: none;
+}
+.sidebar-left .sidebar-footer .content-footer a:hover {
+  color: #622cad;
+  transition: color 1s;
+}
+
+@media (max-width: 768px) {
+  .sidebar-left {
+    width: 25%;
+  }
+}
+.main-right {
+  width: 57.5%;
+  position: fixed;
+  height: 100%;
+  left: 27.5%;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+.main-right .main-content ul.main-menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.main-right .main-content ul.main-menu .main-button {
+  background-color: #dadada;
+}
+.main-right .main-content ul.main-menu .main-button a {
+  align-items: center;
+  display: inline-flex;
+  min-height: 40px;
+  padding: 0px 20px;
+  text-decoration: none;
+  transition: all 0.25s ease 0s;
+  color: #6d31c1;
+}
+.main-right .main-content ul.main-menu .main-button:hover {
+  background-color: #6d31c1;
+}
+.main-right .main-content ul.main-menu .main-button:hover a {
+  color: #FFFFFF;
+}
+.main-right .main-content .main-box {
+  overflow: scroll;
+  height: 599px;
+}
+.main-right .main-content .main-box h2 {
+  color: #000000;
+  font-size: 24px;
+  border-bottom: solid 1px #000000;
+  padding-bottom: 10px;
+}
+.main-right .main-content .main-box #section-profile p {
+  margin: 30px;
+  padding: 0 15px 0 0;
+}
+.main-right .main-content .main-box #section-projects .cards-container-projects {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px 20px 20px 0;
+}
+.main-right .main-content .main-box #section-projects .cards-container-projects .cards-projects {
+  width: 350px;
+  height: 120px;
+  border-radius: 10px;
+  background-color: #dadada;
+  margin: 8px;
+  display: flex;
+}
+.main-right .main-content .main-box #section-projects .cards-container-projects .cards-projects .container-image-card {
+  width: 40%;
+  height: 100%;
+  border-radius: 10px 0 0 10px;
+}
+.main-right .main-content .main-box #section-projects .cards-container-projects .cards-projects .container-image-card img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px 0 0 10px;
+  display: block;
+}
+.main-right .main-content .main-box #section-projects .cards-container-projects .cards-projects .container-description-card {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+.main-right .main-content .main-box #section-projects .cards-container-projects .cards-projects .container-description-card h3 {
+  color: #000000;
+  font-size: 16px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+}
+.main-right .main-content .main-box #section-projects .cards-container-projects .cards-projects .container-description-card p {
+  color: #000000;
+  font-size: 12px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-align: left;
+  margin: 15px 0 0 0;
+}
+.main-right .main-content .main-box #section-projects .cards-container-projects .cards-projects .container-description-card a {
+  margin: 20px 0 0 0;
+  text-decoration: none;
+  font-size: 13px;
+  text-align: center;
+  width: 80px;
+  padding: 3px;
+  color: #FFFFFF;
+  background-color: #6d31c1;
+  border-radius: 10px;
+}
+.main-right .main-content .main-box #section-references .cards-container-references {
+  width: 100%;
+  height: -moz-max-content;
+  height: max-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px 0 20px 0;
+}
+.main-right .main-content .main-box #section-references .cards-container-references .card-reference {
+  width: 350px;
+  height: 120px;
+  border-radius: 10px;
+  background-color: #dadada;
+  margin: 8px;
+  display: flex;
+}
+.main-right .main-content .main-box #section-references .cards-container-references .card-reference .container-image-card-reference {
+  width: 40%;
+  height: 100%;
+  border-radius: 10px 0 0 10px;
+}
+.main-right .main-content .main-box #section-references .cards-container-references .card-reference .container-image-card-reference img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px 0 0 10px;
+  display: block;
+}
+.main-right .main-content .main-box #section-references .cards-container-references .card-reference .container-description-card-reference {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin: 10px;
+}
+.main-right .main-content .main-box #section-references .cards-container-references .card-reference .container-description-card-reference h3 {
+  color: #000000;
+  font-size: 12px;
+  text-align: left;
+}
+.main-right .main-content .main-box #section-references .cards-container-references .card-reference .container-description-card-reference h4 {
+  color: #000000;
+  font-size: 10px;
+  text-align: left;
+  font-style: oblique;
+}
+.main-right .main-content .main-box #section-references .cards-container-references .card-reference .container-description-card-reference p {
+  color: #000000;
+  font-size: 10px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  text-align: left;
+  margin: 15px 0 0 0;
+}
+.main-right .main-content .main-box #section-experience .cards-container-experiences {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 30px auto;
+}
+.main-right .main-content .main-box #section-experience .cards-container-experiences .card-experience {
+  width: 200px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 16px;
+}
+.main-right .main-content .main-box #section-experience .cards-container-experiences .card-experience img {
+  width: 100%;
+  margin: 5px;
+}
+.main-right .main-content .main-box #section-experience .cards-container-experiences .card-experience i {
+  font-size: 70px;
+}
+.main-right .main-content .main-box #section-experience .cards-container-experiences .card-experience .progress-bar {
+  width: 60%;
+  height: 12px;
+  background: #622cad;
+  overflow: hidden;
+  border-radius: 25px;
+  margin: 5px;
+}
+.main-right .main-content .main-box #section-experience .cards-container-experiences .card-experience p {
+  margin: 5px;
+}
+
+@media (max-width: 768px) {
+  .main-right {
+    left: 25%;
+    width: 70%;
+  }
+  .main-content ul.main-menu {
+    width: 100%;
+  }
+  .main-content .main-box {
+    height: 800px;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+  background-color: #dadada;
+}
+
+img {
+  width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.main-container .content {
+  margin: 0 auto;
+  width: 75%;
+}
+
+@media (width: 768px) {
+  .main-container .content {
+    width: 100%;
+  }
+}
