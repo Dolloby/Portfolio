@@ -82,14 +82,14 @@ const experience = [
     {
         idExperience: 1,
         nameLanguage: "Wordpress",
-        progressPercentage: 50,
+        progressPercentage: 60,
         level: "Medio",
         image: "/assets/ico/wordpress-fill.svg"
     },
     {
         idExperience: 2,
         nameLanguage: "HTML5",
-        progressPercentage: 50,
+        progressPercentage: 60,
         level: "Medio",
         image: "/assets/ico/html5-fill.svg"
     },
@@ -103,15 +103,15 @@ const experience = [
     {
         idExperience: 4,
         nameLanguage: "React",
-        progressPercentage: 50,
-        level: "Medio",
+        progressPercentage: 20,
+        level: "Bajo",
         image: "/assets/ico/reactjs-fill.svg"
     },
     {
         idExperience: 5,
         nameLanguage: "NodeJS",
-        progressPercentage: 50,
-        level: "Medio",
+        progressPercentage: 10,
+        level: "Bajo",
         image: "/assets/ico/nodejs-fill.svg"
     }
 ]
