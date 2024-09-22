@@ -220,6 +220,7 @@
     }
 }
 
+
 @media (max-width: 768px) {
     .main-right {
         left: 25%;
@@ -237,7 +238,7 @@
 
 @media (max-width: 450px) {
     .main-right {
-        width: 100%; // El contenedor derecho ocupa todo el ancho en móvil
+        width: 90%; // El contenedor derecho ocupa todo el ancho en móvil
         left: 0;
         .main-content {
             .container-button {
@@ -250,6 +251,13 @@
             }
             ul.main-menu {
                 width: 100%;
+                display: flex;
+                justify-content: flex-end;
+                .main-button {
+                    a {
+                        padding: 0px 8px;
+                    }
+                }
             }
             .main-box {
                 height: 700px; // Quita el valor fijo
