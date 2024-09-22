@@ -128,11 +128,15 @@ document.querySelectorAll('a[href=""]').forEach(anchor => {
 });
 
 document.addEventListener('DOMContentLoaded', function() {
-    const menuSidebar = document.getElementById('menuSidebar');
+    const menuSidebar = document.getElementById('menu_Sidebar');
     const sidebar = document.querySelector('.sidebar-left');
     const overlay = document.createElement('div');
     overlay.classList.add('overlay');
     document.body.appendChild(overlay);
+
+    // Añadir la clase 'active' por defecto al cargar la página
+    sidebar.classList.add('active');
+    overlay.classList.add('active');
 
     // Mostrar el sidebar y el overlay al hacer clic en el botón
     menuSidebar.addEventListener('click', function() {
