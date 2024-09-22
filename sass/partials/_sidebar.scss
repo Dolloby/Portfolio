@@ -90,3 +90,48 @@
     }
     
 }
+
+@media (max-width: 450px) {
+    .sidebar-left {
+        display: block; // Mostrar en móvil
+        width: 45%; // Ocupar todo el ancho
+        position: absolute; // Encima del contenido
+        z-index: 1000;
+        transform: translateX(-100%); // Oculto por defecto
+        transition: transform 0.3s ease;
+    }
+
+    // Botón para mostrar el sidebar
+    .menu-sidebar {
+        display: block;
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        z-index: 1001;
+        background-color: $highlight;
+        color: $white-color;
+        font-size: 24px;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    .sidebar-left.active {
+        transform: translateX(0); // Mostrar sidebar al hacer clic en el botón
+    }
+
+    .overlay {
+        display: none; // Oculto por defecto
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5); // Fondo semitransparente
+        z-index: 999;
+    }
+
+    .overlay.active {
+        display: block; // Mostrar cuando el sidebar está abierto
+    }
+}

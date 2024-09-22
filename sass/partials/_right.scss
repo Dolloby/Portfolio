@@ -14,6 +14,9 @@
     padding: 20px;
     background-color: $secondary-color;
     .main-content {
+        .container-button {
+            visibility: hidden;
+        }
         ul.main-menu {
             list-style: none;
             display: flex;
@@ -221,13 +224,47 @@
     .main-right {
         left: 25%;
         width: 70%;
-    }
-    .main-content {
-        ul.main-menu {
-            width: 100%;
+        .main-content {
+            ul.main-menu {
+                width: 100%;
+            }
+            .main-box {
+                height: auto;
+            }
         }
-        .main-box {
-            height: 800px;
+    }
+}
+
+@media (max-width: 450px) {
+    .main-right {
+        width: 100%; // El contenedor derecho ocupa todo el ancho en móvil
+        left: 0;
+        .main-content {
+            .container-button {
+                visibility: visible;
+                align-items: center;
+                .menu-sidebar {
+                    height: 40px;
+                    color: $text-primary-color;
+                }
+            }
+            ul.main-menu {
+                width: 100%;
+            }
+            .main-box {
+                height: 700px; // Quita el valor fijo
+                overflow: auto; // Si prefieres que sea scrollable
+                #section-experience {
+                    // Ajuste de tarjetas de experiencia
+                    .cards-container-experiences {
+                        flex-direction: row; // Apilar las tarjetas
+                        .card-experience {
+                            width: 15%; // Ocupa todo el ancho
+                            margin: 10px 0;
+                        }
+                    }
+                }
+            }
         }
     }
 }

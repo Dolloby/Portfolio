@@ -78,6 +78,45 @@
     top: 58px;
   }
 }
+@media (max-width: 450px) {
+  .sidebar-left {
+    display: block;
+    width: 45%;
+    position: absolute;
+    z-index: 1000;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+  }
+  .menu-sidebar {
+    display: block;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1001;
+    background-color: #6d31c1;
+    color: #000000;
+    font-size: 24px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  .sidebar-left.active {
+    transform: translateX(0);
+  }
+  .overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+  }
+  .overlay.active {
+    display: block;
+  }
+}
 .main-right {
   width: 57.5%;
   position: fixed;
@@ -85,6 +124,9 @@
   left: 27.5%;
   padding: 20px;
   background-color: #f0f0f0;
+}
+.main-right .main-content .container-button {
+  visibility: hidden;
 }
 .main-right .main-content ul.main-menu {
   list-style: none;
@@ -283,11 +325,39 @@
     left: 25%;
     width: 70%;
   }
-  .main-content ul.main-menu {
+  .main-right .main-content ul.main-menu {
     width: 100%;
   }
-  .main-content .main-box {
-    height: 800px;
+  .main-right .main-content .main-box {
+    height: auto;
+  }
+}
+@media (max-width: 450px) {
+  .main-right {
+    width: 100%;
+    left: 0;
+  }
+  .main-right .main-content .container-button {
+    visibility: visible;
+    align-items: center;
+  }
+  .main-right .main-content .container-button .menu-sidebar {
+    height: 40px;
+    color: #FFFFFF;
+  }
+  .main-right .main-content ul.main-menu {
+    width: 100%;
+  }
+  .main-right .main-content .main-box {
+    height: 700px;
+    overflow: auto;
+  }
+  .main-right .main-content .main-box #section-experience .cards-container-experiences {
+    flex-direction: row;
+  }
+  .main-right .main-content .main-box #section-experience .cards-container-experiences .card-experience {
+    width: 15%;
+    margin: 10px 0;
   }
 }
 * {
