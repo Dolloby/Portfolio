@@ -42,6 +42,10 @@ h1 {
 }
 
 @media (max-width: 768px) {
+    body {
+        background-color: $text-primary-color;
+    }
+
     .main-container {
         .content {
             width: 100%;

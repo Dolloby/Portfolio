@@ -79,6 +79,14 @@
 @media (max-width: 768px) {
     .sidebar-left {
         width: 25%;
+        position: absolute;
+        background-color: $text-primary-color;
+        font-size: 0.8em;
+        .sidebar-footer {
+            font-size: 0.7em;
+            top: 58px;
+            //padding: 0 0 10px 0;
+        }
     }
     
 }

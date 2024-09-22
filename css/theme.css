@@ -69,6 +69,13 @@
 @media (max-width: 768px) {
   .sidebar-left {
     width: 25%;
+    position: absolute;
+    background-color: #FFFFFF;
+    font-size: 0.8em;
+  }
+  .sidebar-left .sidebar-footer {
+    font-size: 0.7em;
+    top: 58px;
   }
 }
 .main-right {
@@ -313,6 +320,9 @@ h1 {
 }
 
 @media (max-width: 768px) {
+  body {
+    background-color: #FFFFFF;
+  }
   .main-container .content {
     width: 100%;
   }
