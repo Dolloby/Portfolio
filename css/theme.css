@@ -364,6 +364,9 @@
     width: 15%;
     margin: 10px 0;
   }
+  .main-right .main-content .main-box #section-experience .cards-container-experiences .card-experience p {
+    visibility: hidden;
+  }
 }
 * {
   margin: 0;

@@ -269,6 +269,9 @@
                         .card-experience {
                             width: 15%; // Ocupa todo el ancho
                             margin: 10px 0;
+                            p {
+                                visibility: hidden;
+                            }
                         }
                     }
                 }

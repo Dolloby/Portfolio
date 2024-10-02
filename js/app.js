@@ -66,7 +66,7 @@ const references = [
         imgReference: '/assets/img/male.png'
     },
     // {
-    //     idReference: 6,
+    //     idReference: 6,e
     //     name: "Andrea Rincon",
     //     position: "Analista de TI",
     //     comment: "Kevin se destaca en la integración de sistemas y en la mejora continua de procesos, siempre entregando trabajos de calidad.",
