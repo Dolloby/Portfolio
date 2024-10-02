@@ -35,43 +35,43 @@ const references = [
         name: "Camilo Barrero",
         position: "Programador FullStack",
         comment: "Kevin es un desarrollador talentoso y confiable. Su habilidad en la programación y su enfoque en la resolución de problemas lo destacan.",
-        imgReference: '/assets/img/Person1.png'
+        imgReference: '/assets/img/male.png'
     },
     {
         idReference: 2,
         name: "Gerson Perez",
         position: "Programador FullStack",
         comment: "Su conocimiento en desarrollo web y su habilidad para adaptarse a nuevas tecnologías es impresionante.",
-        imgReference: '/assets/img/Person2.png'
+        imgReference: '/assets/img/male.png'
     },
     {
         idReference: 3,
         name: "Karen Gomez",
         position: "Programadora Front-End",
         comment: "Kevin ha demostrado ser un excelente colaborador en nuestros proyectos front-end, siempre superando nuestras expectativas.",
-        imgReference: '/assets/img/Person3.png'
+        imgReference: '/assets/img/female.png'
     },
+    // {
+    //     idReference: 4,
+    //     name: "Lucía Rodríguez",
+    //     position: "Especialista en Ciberseguridad",
+    //     comment: "Kevin ha mostrado un gran compromiso y habilidad en la implementación de prácticas de seguridad en sus desarrollos.",
+    //     imgReference: '/assets/img/Person4.png'
+    // },
     {
         idReference: 4,
-        name: "Lucía Rodríguez",
-        position: "Especialista en Ciberseguridad",
-        comment: "Kevin ha mostrado un gran compromiso y habilidad en la implementación de prácticas de seguridad en sus desarrollos.",
-        imgReference: '/assets/img/Person4.png'
-    },
-    {
-        idReference: 5,
         name: "Oscar Moreno",
         position: "Programador FullStack",
         comment: "Kevin tiene un enfoque único para resolver problemas complejos, lo que lo convierte en un valioso miembro del equipo.",
-        imgReference: '/assets/img/Person5.png'
+        imgReference: '/assets/img/male.png'
     },
-    {
-        idReference: 6,
-        name: "Andrea Martinez",
-        position: "Analista de TI",
-        comment: "Kevin se destaca en la integración de sistemas y en la mejora continua de procesos, siempre entregando trabajos de calidad.",
-        imgReference: '/assets/img/Person6.png'
-    }
+    // {
+    //     idReference: 6,
+    //     name: "Andrea Rincon",
+    //     position: "Analista de TI",
+    //     comment: "Kevin se destaca en la integración de sistemas y en la mejora continua de procesos, siempre entregando trabajos de calidad.",
+    //     imgReference: '/assets/img/Person6.png'
+    // }
 ]
 
 const experience = [
