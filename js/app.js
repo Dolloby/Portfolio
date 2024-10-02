@@ -245,7 +245,7 @@ function createCardsExperiences(experience) {
     const imgCardExperience = document.createElement('img')
     imgCardExperience.src = experience.image
 
-    const nameLanguage = document.createElement('p')
+    const nameLanguage = document.createElement('h3')
     nameLanguage.textContent = experience.nameLanguage
 
     const progressExperience = document.createElement('progress')
@@ -254,6 +254,7 @@ function createCardsExperiences(experience) {
     progressExperience.setAttribute('max', '100')
     
     const levelcardExperience = document.createElement('p')
+    // levelcardExperience.classList.add('level-experience')
     levelcardExperience.textContent = experience.level
 
 

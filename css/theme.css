@@ -316,7 +316,15 @@
   border-radius: 25px;
   margin: 5px;
 }
+.main-right .main-content .main-box #section-experience .cards-container-experiences .card-experience .level-experience {
+  font-size: 11px;
+  margin: 5px;
+}
 .main-right .main-content .main-box #section-experience .cards-container-experiences .card-experience p {
+  margin: 5px;
+}
+.main-right .main-content .main-box #section-experience .cards-container-experiences .card-experience h3 {
+  font-size: 16px;
   margin: 5px;
 }
 
@@ -364,8 +372,8 @@
     width: 15%;
     margin: 10px 0;
   }
-  .main-right .main-content .main-box #section-experience .cards-container-experiences .card-experience p {
-    visibility: hidden;
+  .main-right .main-content .main-box #section-experience .cards-container-experiences .card-experience h3 {
+    display: none;
   }
 }
 * {

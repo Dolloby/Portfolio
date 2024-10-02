@@ -210,7 +210,15 @@
                             border-radius: 25px;
                             margin: 5px;
                         }
+                        .level-experience {
+                            font-size: 11px;
+                            margin: 5px;
+                        }
                         p {
+                            margin: 5px;
+                        }
+                        h3 {
+                            font-size: 16px;
                             margin: 5px;
                         }
                     }
@@ -269,8 +277,8 @@
                         .card-experience {
                             width: 15%; // Ocupa todo el ancho
                             margin: 10px 0;
-                            p {
-                                visibility: hidden;
+                            h3 {
+                                display: none;
                             }
                         }
                     }
